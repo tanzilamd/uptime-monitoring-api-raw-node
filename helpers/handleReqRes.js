@@ -2,7 +2,7 @@
 const { StringDecoder } = require('string_decoder');
 const url = require('url');
 const routes = require('../routes');
-const { notFoundHandler } = require('../handlers/routeHandlers/notFoundHandler');
+const { notFoundHandler } = require('../handlers/routeHandlers/notFoundHandlers');
 // module scaffolding
 const handler = {};
 
